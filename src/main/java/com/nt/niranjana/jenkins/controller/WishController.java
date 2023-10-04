@@ -17,6 +17,7 @@ public class WishController
 	@GetMapping("/msg")
 	public String wishGenerator()
 	{
+		System.out.println("WiahController: inside wishGenerator() method");
 		return wishService.sendWishMessage();
 	}
 
