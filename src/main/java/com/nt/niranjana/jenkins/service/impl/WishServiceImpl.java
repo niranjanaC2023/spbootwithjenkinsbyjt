@@ -20,7 +20,7 @@ public class WishServiceImpl implements WishService
 	@Override
 	public String sendWishMessage() 
 	{
-		logger.info("WishServiceImpl: sendingMessage() method");
+		logger.info("WishServiceImpl: sendingMessage() method......");
 		int hour = calender.HOUR_OF_DAY;
 		if(hour<12)
 			 return "<h2>Good Morning::</h2>";
